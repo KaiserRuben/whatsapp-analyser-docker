@@ -2,7 +2,6 @@ services:
   whatsapp-analyser:
     build: .
     image: kaiserruben/whatsapp-analyser:latest
-    platform: linux/amd64
     ports:
       - "12345:8000"
     env_file:
