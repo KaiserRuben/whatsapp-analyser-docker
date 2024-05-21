@@ -19,7 +19,8 @@ To get started with this project, follow these steps:
       * `dolphin-2.6-mixtral-8x7b`
       * `mistralai/Mixtral-8x7B-Instruct-v0.1`
       * `Qwen1.5-32B-Chat`
-3.  **Start the Docker container**: Run `docker-compose up` to start the containerized FastAPI application.
+3.  **Pull the Docker image**: Run `docker compose pull` to pull the Docker image for the FastAPI application.
+4.  **Start the Docker container**: Run `docker compose up` to start the containerized FastAPI application.
 
 **About this project**
 -------------------
