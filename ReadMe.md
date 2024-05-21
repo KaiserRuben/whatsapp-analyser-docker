@@ -8,7 +8,7 @@ Welcome to the WhatsApp Chat Analyzer, a containerized FastAPI project that leve
 -------------------
 
 To get started with this project, follow these steps:
-1.  **Clone the repository**: Run `git clone https://github.com/your-username/whatsapp-chat-analyzer.git`
+1.  **Clone the repository**: Run `git clone https://github.com/KaiserRuben/whatsapp-analyser-docker.git`
 2.  **Create a `.env` file**: Copy the `.env.template` file and create a new file named `.env`. Fill in your environment variables accordingly.
     * Set `MAIL_USER=`, `MAIL_PASS=`, `MAIL_SENDER=`, `MAIL_HOST=`, and `MAIL_PORT=` to configure email settings (this is needed to be able to receive the results).
     * Set `HF_TOKEN` and make sure you have access to the tokenizer of your chosen model. (e.g. for LLAMA3, you can get access [here](https://huggingface.co/meta-llama/Meta-Llama-3-8B))
